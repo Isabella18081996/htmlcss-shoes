@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+HTML{
+  scroll-behavior: smooth;
+}
+
 body{
   font-family: 'Rubik Mono One', sans-serif;
   text-transform: uppercase;
@@ -11,9 +15,14 @@ body{
 
 .container{
   width: 100%;
+  position: relative;
 }
 
-
+.menù{
+  position:fixed;
+  top:20px;
+  right:15px;
+}
 
 .box{
 height: 100vh;
@@ -39,4 +48,22 @@ height: 100vh;
 #terza-foto{
   background-color: yellow;
   color:green;
+}
+
+a{
+  background-color: white;
+/*   line-height: 15px;
+  height: 15px; */
+  border-radius: 50%;
+  font-size:10px;
+  color:black;
+  padding: 9px 12px;
+  text-decoration:none;
+  margin-left:15px;
+
+
+}
+
+a:hover{
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
 }
