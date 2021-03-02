@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Rubik Mono One', sans-serif;
+  text-transform: uppercase;
+}
+
+.container{
+  width: 100%;
+}
+
+
+
+.box{
+height: 100vh;
+}
+
+.content{
+  text-align:center;
+}
+
+
+
+
+#prima-foto{
+  background-color: red;
+  color: yellow;
+}
+
+#seconda-foto{
+  background-color: green;
+  color: yellow;
+}
+
+#terza-foto{
+  background-color: yellow;
+  color:green;
+}
